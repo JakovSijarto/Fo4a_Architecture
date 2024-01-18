@@ -1,5 +1,5 @@
 <template>
-  <div class="pt-52 w-full">
+  <div class="pt-52 w-full max-[580px]:pt-40">
     <h2 class="pl-24 pb-16 max-[340px]:pl-0 max-[340px]:text-center font-bold text-[18px]">Project Details</h2>
     <div class="w-full flex justify-center">
       <div class="w-[90%] flex justify-between items-center gap-[3em] max-[1090px]:flex-col">
@@ -42,7 +42,7 @@
     computed: {
       imagePath() {
         // Assuming the images are in the same directory as your component
-        return `/studio_oker/${this.project.image}`
+        return `/Fo4a_Architecture/${this.project.image}`
       },
     },
   };

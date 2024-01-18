@@ -9,7 +9,10 @@
       </svg>
     </div>
     <div class="w-[90%] flex justify-between items-center pb-12 max-[980px]:flex-col max-[980px]:gap-[5em]">
-      <img src="/logo.png" alt="" class="h-[120px] max-[450px]:h-[60%] max-[450px]:w-[100%]">
+      <div class="ml-24 max-[980px]:ml-0">
+        <img src="/logo-footer.png" alt="" class=" object-cover h-[120px] max-[450px]:h-[60%] max-[450px]:w-[100%]">
+      </div>
+      
       <ul class="text-center text-[15px] max-[980px]:hidden">
             <li class="pb-12 font-bold text-[18.5px]">PAGES</li>
             <li><router-link to="/" class="">home</router-link></li>

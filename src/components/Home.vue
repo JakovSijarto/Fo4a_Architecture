@@ -25,10 +25,10 @@
       <p class="text-[19px] tracking-[0.2em] uppercase">Projects</p>
       <p class="tracking-[0.2em]"><router-link to="/projekti">check out other projects ▸ ▹</router-link></p>
     </div>
-    <div class="w-[90%] flex gap-[5em] pt-[50px] justify-between items-center max-[740px]:flex-col">
+    <div class="w-[90%] flex gap-[5em] pt-[50px] justify-between items-start max-[740px]:flex-col">
       <div class="w-full bg-white cursor-pointer">
         <router-link to="/project/2">
-        <img src="/projects1.webp" alt="" class="h-[900px] w-[100%] object-cover hover-effect max-[1000px]:h-[500px] max-[450px]:h-[300px]">
+        <img src="/projects1.webp" alt="" class="h-[600px] w-[100%] object-cover hover-effect max-[1000px]:h-[500px] max-[450px]:h-[300px]">
         <div class="">
           <p class="py-6 text-[22px]">Project 1</p>
           <p class="text-[14px]">see more ⟶</p>
@@ -37,7 +37,7 @@
       </div>
       <div class="w-full bg-white cursor-pointer">
         <router-link to="/project/2">
-        <img src="/projects2.webp" alt="" class="h-[900px] w-[100%] object-cover hover-effect max-[1000px]:h-[500px] max-[450px]:h-[300px]">
+        <img src="/projects2.webp" alt="" class="h-[600px] w-[100%] object-cover hover-effect max-[1000px]:h-[500px] max-[450px]:h-[300px]">
         <div class="">
           <p class="py-6 text-[22px]">Project 2</p>
           <p class="text-[14px]">see more ⟶</p>
@@ -66,7 +66,7 @@
     </div>
       </div>
       <div class="w-full ">
-        <p class="pb-[10px] tracking-[0.2em]">SHEVRINA MARI | OKER STUDIO</p>
+        <p class="pb-[10px] tracking-[0.2em]">SHEVRINA MARI | FORA STUDIO</p>
         <p class="border-b w-full border-black pb-[30px] text-[12px] font-bold tracking-[0.2em]">about us</p>
         <div class="w-full border-b border-black pb-[50px]">
           <ul class="pt-[50px]">
@@ -84,11 +84,11 @@
       disableOnInteraction: false,
     }"
      :effect="'fade'" class="!w-[500px] !h-[250px] !ml-0 mt-16  max-[1300px]:!w-[300px] max-[1300px]:!h-[150px] max-[950px]:!w-[200px] max-[950px]:!h-[100px] max-[680px]:!w-[250px] max-[680px]:mt-4 max-[680px]:!h-[120px]">
-     <swiper-slide><img src="/client-review1.png" alt="" class="!object-cover"></swiper-slide>
-     <swiper-slide><img src="/client-review2.png" alt="" class="!object-cover"></swiper-slide>
-     <swiper-slide><img src="/client-review3.png" alt="" class="!object-cover"></swiper-slide>
-     <swiper-slide><img src="/client-review4.png" alt="" class="!object-cover"></swiper-slide>
-     <swiper-slide><img src="/client-review6.png" alt="" class="!object-cover"></swiper-slide>
+     <swiper-slide></swiper-slide>
+     <swiper-slide></swiper-slide>
+     <swiper-slide></swiper-slide>
+     <swiper-slide></swiper-slide>
+     <swiper-slide></swiper-slide>
   </swiper>
         </div>
       </div>
@@ -193,11 +193,6 @@ input,textarea {
   .swiper-slide {
     text-align: center;
     background: #fff;
-
-    /* Center slide text vertically */
-    display: flex;
-    justify-content: start;
-    align-items: start;
   }
 
   .swiper-slide img {

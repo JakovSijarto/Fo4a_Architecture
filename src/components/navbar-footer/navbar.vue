@@ -1,14 +1,14 @@
 <template>
-  <div class="absolute z-[9999] w-full flex justify-center items-center pb-16 pt-8">
-    <div class="w-[90%] flex items-center justify-between font-bold ">
-      <img src="/logo.png" alt="" class="h-[80px] max-[580px]:h-[40px]">
-      <ul class="flex gap-[2em] max-[1020px]:hidden tracking-[0.1em] ">
+  <div class="absolute z-[9999] w-full flex justify-center items-center pb-16 pt-24 max-[580px]:pt-8">
+    <div class="w-[90%] flex items-center justify-between ">
+      <p class="navtext font-bold text-[2rem] uppercase" style="font-size: calc(1vw + 1vh + 1vmin);"> Fo4a Architecture</p>
+      <ul class="flex gap-[2em] max-[1020px]:hidden tracking-[0.1em] text-[14px] uppercase font-bold">
         <li><router-link to="/" class="hover-effect !text-black">Home</router-link></li>
         <li><router-link to="/projekti" class="hover-effect !text-black">Projects</router-link></li>
         <li><router-link to="/cijena" class="hover-effect !text-black">Services | Prices</router-link></li>
         <li><router-link to="/kontakt" class="hover-effect !text-black">Kontakt</router-link></li>
       </ul>
-        <div class="overlay flex flex-col" :class="{ active: isActive }">
+        <div class="overlay flex flex-col uppercase font-bold text-[14px] " :class="{ active: isActive }">
         <router-link to="/" class="hover-effect animation-text">Home</router-link>
         <router-link to="/projekti" class="hover-effect animation-text">Projects</router-link>
         <router-link to="/cijena" class="hover-effect animation-text">Services | Prices</router-link>
