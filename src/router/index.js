@@ -1,34 +1,28 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
-import Home from '../components/home.vue'
-import Projekti from '../components/projekti.vue'
-import Kontakt from '../components/kontakt.vue'
-import Cijena from '../components/cijena.vue'
-import ProjectDetails from '../components/projekti_detalji.vue'
-
 const routes = [
   {
     path: '/',
     name: 'Home',
-    component: Home
+    component: ()=> import('../components/home.vue')
   },
   {
     path: '/projekti',
     name: 'Projekti',
-    component: Projekti
+    component: ()=> import('../components/projekti.vue')
   },
   {
     path: '/cijena',
     name: 'Cijena',
-    component: Cijena
+    component: ()=> import('../components/cijena.vue')
   },
   {
     path: '/kontakt',
     name: 'Kontakt',
-    component: Kontakt
+    component: ()=> import('../components/kontakt.vue')
   },
   { path: '/project/:id',
-   component: ProjectDetails, 
+  component: ()=> import('../components/projekti_detalji.vue'), 
    name: 'project-details',
    props: true 
   },
