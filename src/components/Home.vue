@@ -6,10 +6,10 @@
     }"
      :effect="isMobile ? 'fade' : 'slide'" class="mySwiper max-[580px]:hidden"
      >
-     <swiper-slide><img src='/hero-img1.webp' alt="" class="opacity-[0.8] max-[580px]:w-full max-[580px]:h-[40vh]"></swiper-slide>
-    <swiper-slide><img src='/hero-img2.webp' alt="" class="opacity-[0.8] max-[580px]:w-full max-[580px]:h-[40vh]"></swiper-slide>
-    <swiper-slide><img src='/hero-img3.webp' alt="" class="opacity-[0.8] max-[580px]:w-full max-[580px]:h-[40vh]"></swiper-slide>
-    <swiper-slide><img src='/hero-img4.webp' alt="" class="opacity-[0.8] max-[580px]:w-full max-[580px]:h-[40vh]"></swiper-slide>
+     <swiper-slide><img src='/hero-img1.webp' alt="" class="opacity-[0.8] max-[580px]:w-full max-[580px]:h-[40vh]" loading="lazy"></swiper-slide>
+    <swiper-slide><img src='/hero-img2.webp' alt="" class="opacity-[0.8] max-[580px]:w-full max-[580px]:h-[40vh]" loading="lazy"></swiper-slide>
+    <swiper-slide><img src='/hero-img3.webp' alt="" class="opacity-[0.8] max-[580px]:w-full max-[580px]:h-[40vh]" loading="lazy"></swiper-slide>
+    <swiper-slide><img src='/hero-img4.webp' alt="" class="opacity-[0.8] max-[580px]:w-full max-[580px]:h-[40vh]" loading="lazy"></swiper-slide>
   </swiper>
   </div>
   <div class="relative z-[1000] bg-white flex flex-col items-center ">
@@ -28,7 +28,7 @@
     <div class="w-[90%] flex gap-[5em] pt-[50px] justify-between items-start max-[740px]:flex-col">
       <div class="w-full bg-white cursor-pointer">
         <router-link to="/project/2">
-        <img src="/projects1.webp" alt="" class="h-[600px] w-[100%] object-cover hover-effect max-[1000px]:h-[500px] max-[450px]:h-[300px]">
+        <img src="/projects1.webp" loading="lazy" alt="" class="h-[600px] w-[100%] object-cover hover-effect max-[1000px]:h-[500px] max-[450px]:h-[300px]">
         <div class="">
           <p class="py-6 text-[22px]">Project 1</p>
           <p class="text-[14px]">see more ⟶</p>
@@ -37,7 +37,7 @@
       </div>
       <div class="w-full bg-white cursor-pointer">
         <router-link to="/project/2">
-        <img src="/projects2.webp" alt="" class="h-[600px] w-[100%] object-cover hover-effect max-[1000px]:h-[500px] max-[450px]:h-[300px]">
+        <img src="/projects2.webp" alt="" loading="lazy" class="h-[600px] w-[100%] object-cover hover-effect max-[1000px]:h-[500px] max-[450px]:h-[300px]">
         <div class="">
           <p class="py-6 text-[22px]">Project 2</p>
           <p class="text-[14px]">see more ⟶</p>
@@ -54,7 +54,7 @@
       </svg>
     </div>
     <div class="w-[90%] flex gap-[2em] max-[680px]:flex-col">
-      <img src="/aboutus-photo.webp" alt="" class="w-[50%] h-[1000px] object-cover max-[680px]:w-[100%] max-[680px]:h-[600px] max-[400px]:h-[400px]">
+      <img src="/aboutus-photo.webp" alt="" loading="lazy" class="w-[50%] h-[1000px] object-cover max-[680px]:w-[100%] max-[680px]:h-[600px] max-[400px]:h-[400px]">
       <div class="mx-8 max-[680px]:hidden">
         <div class="w-[90%] h-[1000px] flex">
       <svg height="100%" width="4" class="">
@@ -94,7 +94,7 @@
       </div>
     </div>
     <div class="w-full mt-16 bg-black relative ">
-      <img src="/contact-home.webp" alt="" class="h-[770px] w-full object-cover opacity-[0.3]">
+      <img src="/contact-home.webp" alt="" class="h-[770px] w-full object-cover opacity-[0.3]" loading="lazy">
       <form class="absolute inset-0 flex items-center justify-center flex-col text-white" ref="form" @submit="sendEmail">
         <p class="text-[30px] pb-2 mx-4 text-center">YOU CAN ASK ANY QUESTIONS</p>
         <input type="text" required v-model="ime" name="ime" class="border-b text-[17px] leading-[0.2em] py-[15px] bg-[transparent] w-[800px] max-[900px]:w-[90%] pr-4 " placeholder="Name*">

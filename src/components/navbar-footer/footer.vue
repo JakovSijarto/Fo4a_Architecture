@@ -1,5 +1,5 @@
 <template>
-    <div class="relative z-[9999] grid place-items-center">
+    <div class="relative z-[9999] bg-white flex justify-center items-center w-full flex-col w-full h-auto">
         <div class="w-[90%] py-16">
       <svg height="3" width="100%" class="">
         <line x1="0" y1="0" x2="100%" y2="0" style="stroke:rgb(0, 0, 0);stroke-width:2" />
@@ -10,7 +10,7 @@
     </div>
     <div class="w-[90%] flex justify-between items-center pb-12 max-[980px]:flex-col max-[980px]:gap-[5em]">
       <div class="ml-24 max-[980px]:ml-0">
-        <img src="/logo-footer.png" alt="" class=" object-cover h-[120px] max-[450px]:h-[60%] max-[450px]:w-[100%]" width="100" height="120">
+        <img src="/logo-footer.png" loading="lazy" alt="" class=" object-cover h-[120px] max-[450px]:h-[60%] max-[450px]:w-[100%]" width="100" height="120">
       </div>
       
       <ul class="text-center text-[15px] max-[980px]:hidden">
