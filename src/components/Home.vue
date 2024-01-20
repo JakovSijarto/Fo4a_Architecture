@@ -6,10 +6,10 @@
     }"
      :effect="isMobile ? 'fade' : 'slide'" class="mySwiper max-[580px]:hidden"
      >
-     <swiper-slide><img src='/Fo4a_Architecture/hero-img1.webp' alt="" class="opacity-[0.8] max-[580px]:w-full max-[580px]:h-[40vh]"></swiper-slide>
-    <swiper-slide><img src='/Fo4a_Architecture/hero-img1.webp' alt="" class="opacity-[0.8] max-[580px]:w-full max-[580px]:h-[40vh]"></swiper-slide>
-    <swiper-slide><img src='/Fo4a_Architecture/hero-img1.webp' alt="" class="opacity-[0.8] max-[580px]:w-full max-[580px]:h-[40vh]"></swiper-slide>
-    <swiper-slide><img src='/Fo4a_Architecture/hero-img1.webp' alt="" class="opacity-[0.8] max-[580px]:w-full max-[580px]:h-[40vh]"></swiper-slide>
+     <swiper-slide><img src='/hero-img1.webp' alt="" class="opacity-[0.8] max-[580px]:w-full max-[580px]:h-[40vh]"></swiper-slide>
+    <swiper-slide><img src='/hero-img2.webp' alt="" class="opacity-[0.8] max-[580px]:w-full max-[580px]:h-[40vh]"></swiper-slide>
+    <swiper-slide><img src='/hero-img3.webp' alt="" class="opacity-[0.8] max-[580px]:w-full max-[580px]:h-[40vh]"></swiper-slide>
+    <swiper-slide><img src='/hero-img4.webp' alt="" class="opacity-[0.8] max-[580px]:w-full max-[580px]:h-[40vh]"></swiper-slide>
   </swiper>
   </div>
   <div class="relative z-[1000] bg-white flex flex-col items-center ">
