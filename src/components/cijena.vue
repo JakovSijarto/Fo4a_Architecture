@@ -1,7 +1,7 @@
 <template>
     <div class="w-full">
         <div class="w-full flex justify-center items-center relative flex-col">
-            <img src="/price-img.webp" alt="" class="border-b border-t border-black py-4 mt-52 w-[90%] min-h-[400px] object-cover">
+            <img src="/price-img.webp" alt="" class="border-b border-t border-black py-4 mt-52 max-[580px]:mt-32 w-[90%] min-h-[400px] object-cover">
             <div class="w-[90%] pt-32">
       <svg height="3" width="100%" class="">
         <line x2="100%" style="stroke:rgb(0, 0, 0);stroke-width:2" />

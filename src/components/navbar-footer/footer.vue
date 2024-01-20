@@ -22,9 +22,9 @@
   <li class="py-4"><router-link to="/kontakt">kontakt</router-link></li>
 </ul>
 <ul class="max-[980px]:hidden">
-  <li><a href="">Phone: +381643904535</a></li>
-  <li><a href="mailto:jelen.despot@gmail.com">Email: jelen.despot@gmail.com</a></li>
-  <li><a href="https://www.instagram.com/studio_oker/">INSTAGRAM ▸ ▹</a></li>
+  <li><a href="tel:+38761402330">Phone: +38761402330</a></li>
+  <li><a href="mailto:arminmesic@gmail.com">Email: arminmesic@gmail.com</a></li>
+  <li><a href="https://www.instagram.com/fo4aarchitecture/">INSTAGRAM ▸ ▹</a></li>
 </ul>
 <div class="min-[981px]:hidden flex w-full justify-between items-center px-12 max-[400px]:flex-col max-[400px]:gap-[5em]">
 <ul class="text-left text-[15px] max-[400px]:text-center">
@@ -35,9 +35,9 @@
   <li class="py-4"><router-link to="/kontakt">kontakt</router-link></li>
 </ul>
 <ul class="">
-  <li><a href="tel:+381643904535">Phone: +381643904535</a></li>
-  <li><a href="mailto:jelen.despot@gmail.com">Email: studio@gmail.com</a></li>
-  <li><a href="https://www.instagram.com/studio_oker/">INSTAGRAM ▸ ▹</a></li>
+  <li><a href="tel:+38761402330">Phone: +38761402330</a></li>
+  <li><a href="mailto:arminmesic@gmail.com">Email: arminmesic@gmail.com</a></li>
+  <li><a href="https://www.instagram.com/fo4aarchitecture/">INSTAGRAM ▸ ▹</a></li>
 </ul>
 </div>
     </div>

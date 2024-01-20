@@ -1,15 +1,15 @@
 <template>
-<div class="pt-52">
+<div class="pt-52 max-[580px]:pt-32">
     <div class="w-full bg-black relative">
       <img src="/kontakt-photo.webp" alt="" class="h-[770px] w-full object-cover opacity-[0.3]">
         <div class="absolute inset-0 flex items-center w-full justify-center text-white ">
             <div class="w-[90%] flex justify-between items-center max-[900px]:flex-col">
         <ul class="max-[900px]:hidden text-[14px]">
         <li class="text-[16px] font-bold leading-[1.6] tracking-[0.2em]">TEL.NUMBER:</li>
-        <li class="pt-2 pb-4"><a href="tel:+381643904535">+381643904535</a></li>
+        <li class="pt-2 pb-4"><a href="tel:+38761402330">+38761402330</a></li>
         <li class="text-[16px] font-bold leading-[1.6] tracking-[0.2em] pb-2">EMAIL:</li>
-        <li class="pb-4"><a href="mailto:jelen.despot@gmail.com">jelen.despot@gmail.com</a></li>
-        <li class="flex gap-[0.5em]"><img src="/facebook.svg" alt="" class="w-8"><a href="https://www.instagram.com/studio_oker/"><img src="/instagram.svg" alt="" class="w-8"></a></li>
+        <li class="pb-4"><a href="mailto:arminmesic@gmail.com">arminmesic@gmail.com</a></li>
+        <li class="flex gap-[0.5em]"><img src="/facebook.svg" alt="" class="w-8"><a href="https://www.instagram.com/fo4aarchitecture/"><img src="/instagram.svg" alt="" class="w-8"></a></li>
       </ul>
         <form class="flex flex-col items-center max-[900px]:w-full" ref="form" @submit="sendEmail">
         <p class="text-[20px] pb-2 mx-4 tracking-[0.2em]">CONTACT ME:</p>
@@ -21,10 +21,10 @@
       </form>
       <ul class="min-[901px]:hidden pt-16 text-center text-[14px]">
         <li class="text-[16px] font-bold leading-[1.6] tracking-[0.2em]">TEL.NUMBER:</li>
-        <li class="pt-2 pb-4"><a href="tel:+381643904535">+381643904535</a></li>
+        <li class="pt-2 pb-4"><a href="tel:+38761402330">+38761402330</a></li>
         <li class="text-[16px] font-bold leading-[1.6] tracking-[0.2em] pb-2">EMAIL:</li>
-        <li class="pb-4"><a href="mailto:jelen.despot@gmail.com">jelen.despot@gmail.com</a></li>
-        <li class="flex gap-[0.5em] justify-center"><img src="/facebook.svg" alt="" class="w-8"><a href="https://www.instagram.com/studio_oker/"><img src="/instagram.svg" alt="" class="w-8"></a></li>
+        <li class="pb-4"><a href="mailto:arminmesic@gmail.com">arminmesic@gmail.com</a></li>
+        <li class="flex gap-[0.5em] justify-center"><img src="/facebook.svg" alt="" class="w-8"><a href="https://www.instagram.com/fo4aarchitecture/"><img src="/instagram.svg" alt="" class="w-8"></a></li>
       </ul>
       </div>
       </div>

@@ -66,7 +66,7 @@
     </div>
       </div>
       <div class="w-full ">
-        <p class="pb-[10px] tracking-[0.2em]">SHEVRINA MARI | FORA STUDIO</p>
+        <p class="pb-[10px] tracking-[0.2em]">ARMIN MEŠIĆ | FORA STUDIO</p>
         <p class="border-b w-full border-black pb-[30px] text-[12px] font-bold tracking-[0.2em]">about us</p>
         <div class="w-full border-b border-black pb-[50px]">
           <ul class="pt-[50px]">
