@@ -8,14 +8,14 @@
         <li><router-link to="/cijena" class="hover-effect !text-black">Services | Prices</router-link></li>
         <li><router-link to="/kontakt" class="hover-effect !text-black">Kontakt</router-link></li>
       </ul>
-        <div class="overlay flex flex-col uppercase font-bold text-[14px] " :class="{ active: isActive }">
-        <router-link to="/" class="hover-effect animation-text">Home</router-link>
-        <router-link to="/projekti" class="hover-effect animation-text">Projects</router-link>
-        <router-link to="/cijena" class="hover-effect animation-text">Services | Prices</router-link>
-        <router-link to="/kontakt" class="hover-effect animation-text">Kontakt</router-link>
+        <div class="overlay flex flex-col uppercase font-bold min-[1020px]:hidden text-[14px] " :class="{ active: isActive }">
+        <router-link to="/" @click="showMobile()" class="hover-effect animation-text">Home</router-link>
+        <router-link to="/projekti" @click="showMobile()" class="hover-effect animation-text">Projects</router-link>
+        <router-link to="/cijena" @click="showMobile()" class="hover-effect animation-text">Services | Prices</router-link>
+        <router-link to="/kontakt" @click="showMobile()" class="hover-effect animation-text">Kontakt</router-link>
         </div>
       <div class="hamb_menu min-[1020px]:hidden">
-    <input id="checkbox" type="checkbox" @click="showMobile()">
+    <input id="checkbox" type="checkbox" @click="showHamb()">
     <label class="toggle" for="checkbox">
       <div id="bar1" class="bars"></div>
       <div id="bar2" class="bars"></div>
@@ -30,6 +30,7 @@ export default {
   data() {
     return {
       isActive: false,
+      isActiveHamb: false,
     };
   },
   methods: {
@@ -40,8 +41,14 @@ export default {
       } else {
         document.body.style.overflow = '';
       }
+      document.getElementById('checkbox').checked = false;
     },
+    showHamb(){
+    this.isActive = !this.isActive;
+    this.isActiveHamb = !this.isActiveHamb;
+  }
   },
+  
 };
 </script>
 <style scoped>

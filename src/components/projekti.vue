@@ -3,7 +3,7 @@
     <div class="w-full flex justify-center items-center">
       <ul class="flex flex-wrap w-[90%] items-start justify-center text-[22px] max-[360px]:w-auto">
     <li v-for="project in projects" :key="project.id" class="mx-[15px] mb-[30px] max-[360px]:mx-2 hovered_card max-[360px]:w-[40%]">
-      <router-link :to="{ name: 'project-details', params: { id: project.id }}" class=" flex justify-start items-start flex-col  max-[985px]:w-[200px] max-[512px]:w-[100%] max-[360px]:w-[100%]">
+      <router-link :to="{ name: 'project-details', params: { id: project.id }}" class=" flex justify-start items-start flex-col  max-[985px]:w-[200px] max-[555px]:w-[100%]">
         <img :src="getImagePath(project.image)" alt="Project Image" class="w-[413px] max-h-[270px] h-[270px] object-cover max-[985px]:h-[700px] max-[360px]:h-[200px] "/>
         <p class="pt-4 text-hover text-[22px] import_font text-size_pr" >{{ project.name }}</p>
       </router-link>

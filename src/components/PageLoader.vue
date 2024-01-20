@@ -1,7 +1,7 @@
 <template>
   <transition name="loader-fade" @before-enter="beforeEnter" @leave="leave">
     <div v-if="showLoader" class="page-loader flex gap-[5em] flex-col">
-      <img src="/logo-footer.png" alt="" class="w-[120px]">
+      <img src="/logo-footer.png" alt="" class="w-[80px]">
       <div class="wrapper">
         <div class="circle"></div>
         <div class="circle"></div>

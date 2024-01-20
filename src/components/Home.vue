@@ -4,12 +4,12 @@
       delay: 2500,
       disableOnInteraction: false,
     }"
-     :effect="'fade'" class="mySwiper"
+     :effect="isMobile ? 'fade' : 'slide'" class="mySwiper max-[580px]:hidden"
      >
-     <swiper-slide><img src="/hero-img1.webp" alt="" class="opacity-[0.8] max-[580px]:!h-[40vh]"></swiper-slide>
-    <swiper-slide><img src="/hero-img2.webp" alt="" class="opacity-[0.8] max-[580px]:!h-[40vh]"></swiper-slide>
-    <swiper-slide><img src="/hero-img3.webp" alt="" class="opacity-[0.8] max-[580px]:!h-[40vh]"></swiper-slide>
-    <swiper-slide><img src="/hero-img4.webp" alt="" class="opacity-[0.8] max-[580px]:!h-[40vh]"></swiper-slide>
+     <swiper-slide><img  :src="isMobile ? '/Fo4a_Architecture/hero-img1-mobile.webp' : '/Fo4a_Architecture/hero-img1.webp'" alt="" class="opacity-[0.8] "></swiper-slide>
+    <swiper-slide><img  :src="isMobile ? '/Fo4a_Architecture/hero-img2-mobile.webp' : '/Fo4a_Architecture/hero-img2.webp'" alt="" class="opacity-[0.8]"></swiper-slide>
+    <swiper-slide><img  :src="isMobile ? '/Fo4a_Architecture/hero-img3-mobile.webp' : '/Fo4a_Architecture/hero-img3.webp'" alt="" class="opacity-[0.8]"></swiper-slide>
+    <swiper-slide><img  :src="isMobile ? '/Fo4a_Architecture/hero-img4-mobile.webp' : '/Fo4a_Architecture/hero-img4.webp'" alt="" class="opacity-[0.8]"></swiper-slide>
   </swiper>
   </div>
   <div class="relative z-[1000] bg-white flex flex-col items-center ">
@@ -123,7 +123,8 @@ return{
  ime:"",
  email:"",
  telefon:"",
- poruka:""
+ poruka:"",
+ isMobile: false,
 }
 },
     components: {
@@ -148,8 +149,20 @@ sendEmail() {
    });
    
 },
-
+checkScreenWidth() {
+      // Update isMobile based on screen width
+      this.isMobile = window.innerWidth <= 580;
+    },
 },
+mounted() {
+    // Check screen width on mount and on resize
+    this.checkScreenWidth();
+    window.addEventListener('resize', this.checkScreenWidth);
+  },
+  beforeDestroy() {
+    // Remove resize event listener to prevent memory leaks
+    window.removeEventListener('resize', this.checkScreenWidth);
+  },
   };
 </script>
 
@@ -175,16 +188,6 @@ input,textarea {
 .hover-effect{
   transition: all 0.3s ease-in;
 }
-.mySwiper {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  z-index: 100; /* Adjust as needed */
-  background-color: white; /* Adjust background color if necessary */
-}
-
   .swiper {
     width: 100%;
     height: 100%;
