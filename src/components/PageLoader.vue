@@ -22,7 +22,7 @@
     // Simulate a delay of 1.5 seconds
     setTimeout(() => {
       showLoader.value = false;
-    }, 3000);
+    }, 3500);
   });
   </script>
   
