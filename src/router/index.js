@@ -4,22 +4,22 @@ const routes = [
   {
     path: '/',
     name: 'Home',
-    component: ()=> import('../components/home.vue')
+    component: ()=> import('../components/home.vue'),
   },
   {
     path: '/projekti',
     name: 'Projekti',
-    component: ()=> import('../components/projekti.vue')
+    component: ()=> import('../components/projekti.vue'),
   },
   {
     path: '/cijena',
     name: 'Cijena',
-    component: ()=> import('../components/cijena.vue')
+    component: ()=> import('../components/cijena.vue'),
   },
   {
     path: '/kontakt',
     name: 'Kontakt',
-    component: ()=> import('../components/kontakt.vue')
+    component: ()=> import('../components/kontakt.vue'),
   },
   { path: '/project/:id',
   component: ()=> import('../components/projekti_detalji.vue'), 
@@ -35,6 +35,5 @@ const router = createRouter({
     return savedPosition || { top:0 }
   }
 })
-
 
 export default router
