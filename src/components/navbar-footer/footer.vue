@@ -25,20 +25,7 @@
             <li><a href="mailto:jelen.despot@gmail.com">Email: jelen.despot@gmail.com</a></li>
             <li><a href="https://www.instagram.com/studio_oker/">INSTAGRAM ▸ ▹</a></li>
         </ul>
-      <div class="min-[981px]:hidden flex w-full justify-between items-center px-12 max-[400px]:flex-col max-[400px]:gap-[5em]">
-        <ul class="text-left text-[15px] max-[400px]:text-center">
-            <li class="pb-12 font-bold text-[18.5px]">PAGES</li>
-            <li><router-link to="/" class="">home</router-link></li>
-            <li class="py-4"><router-link to="/projekti">projekti</router-link></li>
-            <li><router-link to="/cijena">cijena</router-link></li>
-            <li class="py-4"><router-link to="/kontakt">kontakt</router-link></li>
-        </ul>
-        <ul class="">
-            <li><a href="tel:+381643904535">Phone: +381643904535</a></li>
-            <li><a href="mailto:jelen.despot@gmail.com">Email: studio@gmail.com</a></li>
-            <li><a href="https://www.instagram.com/studio_oker/">INSTAGRAM ▸ ▹</a></li>
-        </ul>
-      </div>
+      
         
     </div>
     <div class="w-full bg-[#1a1a1a] flex items-center ">
