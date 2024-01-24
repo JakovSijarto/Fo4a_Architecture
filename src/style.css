@@ -1,12 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
-@font-face {
-  font-family: 'Montserrat-Alt1';
-  src: url('/fonts/otf/MontserratAlt1-Regular.otf') format('opentype'),
-       url('/fonts/otf/MontserratAlt1-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
+@import url("https://db.onlinewebfonts.com/c/4b5ae315f5df148f0ab479a7cedc9832?family=ISOCPEUR");
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -14,13 +7,13 @@
 
 
 *{
-  font-family: 'Poiret One', sans-serif;
+  font-family: "ISOCPEUR", sans-serif;
 }
 
 .navtext{
-  font-family: 'Montserrat-Alt1', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-weight: 400;
-
+  
 }
 html, body {
   scroll-behavior: smooth;

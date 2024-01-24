@@ -12,9 +12,9 @@ const routes = [
     component: ()=> import('../components/projekti.vue'),
   },
   {
-    path: '/cijena',
-    name: 'Cijena',
-    component: ()=> import('../components/cijena.vue'),
+    path: '/onama',
+    name: 'Onama',
+    component: ()=> import('../components/onama.vue'),
   },
   {
     path: '/kontakt',

@@ -1,5 +1,5 @@
 <template>
-<div class="pt-52 max-[580px]:pt-32">
+<div class="pt-72 max-[580px]:pt-32">
     <div class="w-full bg-black relative">
       <img src="/kontakt-photo.webp" alt="" class="h-[770px] w-full object-cover opacity-[0.3]">
         <div class="absolute inset-0 flex items-center w-full justify-center text-white ">

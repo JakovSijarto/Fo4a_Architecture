@@ -1,17 +1,19 @@
 <template>
   <div class="absolute z-[9999] w-full flex justify-center items-center pb-16 pt-24 max-[580px]:pt-8">
     <div class="w-[90%] flex items-center justify-between ">
-      <p class="navtext font-bold text-[2rem] uppercase" style="font-size: calc(1vw + 1vh + 1vmin);"> Fo4a Architecture</p>
-      <ul class="flex gap-[2em] max-[1020px]:hidden tracking-[0.1em] text-[14px] uppercase font-bold">
-        <li><router-link to="/" class="hover-effect !text-black">Home</router-link></li>
-        <li><router-link to="/projekti" class="hover-effect !text-black">Projects</router-link></li>
-        <li><router-link to="/cijena" class="hover-effect !text-black">Services | Prices</router-link></li>
-        <li><router-link to="/kontakt" class="hover-effect !text-black">Kontakt</router-link></li>
+      <div class="mt-[-2em]">
+          <img src="/logo.png" loading="lazy" alt="" width="150" height="120" class="scaleimg">
+        </div>
+      <ul class="flex gap-[2em] max-[1019px]:hidden tracking-[0.1em] uppercase font-bold">
+        <li><router-link to="/" class="hover-effect !text-black pb-2">Home</router-link></li>
+        <li><router-link to="/projekti" class="hover-effect !text-black pb-2">Projects</router-link></li>
+        <li><router-link to="/onama" class="hover-effect !text-black pb-2">O nama</router-link></li>
+        <li><router-link to="/kontakt" class="hover-effect !text-black pb-2">Kontakt</router-link></li>
       </ul>
         <div class="overlay flex flex-col uppercase font-bold min-[1020px]:hidden text-[14px] " :class="{ active: isActive }">
         <router-link to="/" @click="showMobile()" class="hover-effect animation-text">Home</router-link>
         <router-link to="/projekti" @click="showMobile()" class="hover-effect animation-text">Projects</router-link>
-        <router-link to="/cijena" @click="showMobile()" class="hover-effect animation-text">Services | Prices</router-link>
+        <router-link to="/O nama" @click="showMobile()" class="hover-effect animation-text">O nama</router-link>
         <router-link to="/kontakt" @click="showMobile()" class="hover-effect animation-text">Kontakt</router-link>
         </div>
       <div class="hamb_menu min-[1020px]:hidden">
@@ -53,7 +55,7 @@ export default {
 </script>
 <style scoped>
 .router-link-active{
-  color: #ABABAB;
+  border-bottom: 3px solid black; 
 }
 .overlay {
   position: fixed;
@@ -87,11 +89,14 @@ export default {
   transform: translateX(0);
 }
 
-@media only screen and (max-width: 1020px) {
+@media only screen and (max-width: 1019px) {
   .hamb_menu{
     display:block;
     z-index: 9999;
   }
+  .router-link-active{
+  border-bottom: 0px solid black; 
+}
 }
     .hover_effect:hover{
         color:#0D4268;
@@ -157,5 +162,15 @@ export default {
 #checkbox:checked + .toggle {
   transition-duration: .5s;
   transform: rotate(180deg);
+}
+@media only screen and (max-width: 1020px) {
+  .scaleimg{
+    width: 120px;
+  }
+}
+@media only screen and (max-width: 580px) {
+  .scaleimg{
+    width: 80px; padding-top: 2em;
+  }
 }
 </style>

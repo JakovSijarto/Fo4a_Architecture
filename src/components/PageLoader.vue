@@ -1,7 +1,7 @@
 <template>
   <transition name="loader-fade" @before-enter="beforeEnter" @leave="leave">
     <div v-if="showLoader" class="page-loader flex gap-[5em] flex-col">
-      <img src="/logo-footer.png" alt="" class="w-[80px]">
+      <img src="/logo.png" alt="" class="w-[180px]">
       <div class="wrapper">
         <div class="circle"></div>
         <div class="circle"></div>
@@ -16,7 +16,6 @@
   const showLoader = ref(true);
   
   onMounted(() => {
-    // Simulate a delay of 1.5 seconds
     setTimeout(() => {
       showLoader.value = false;
     }, 2500);
@@ -24,7 +23,6 @@
   </script>
   
   <style scoped>
-  /* Add your loader styling here */
   .page-loader {
     position: fixed;
     top: 0;

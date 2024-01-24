@@ -10,6 +10,9 @@
     <swiper-slide><img src='/hero-img2.webp' alt="" class="opacity-[0.8] max-[580px]:w-full max-[580px]:h-[40vh]"></swiper-slide>
     <swiper-slide><img src='/hero-img3.webp' alt="" class="opacity-[0.8] max-[580px]:w-full max-[580px]:h-[40vh]"></swiper-slide>
     <swiper-slide><img src='/hero-img4.webp' alt="" class="opacity-[0.8] max-[580px]:w-full max-[580px]:h-[40vh]"></swiper-slide>
+    <swiper-slide><img src='/hero-img4.webp' alt="" class="opacity-[0.8] max-[580px]:w-full max-[580px]:h-[40vh]"></swiper-slide>
+    <swiper-slide><img src='/hero-img4.webp' alt="" class="opacity-[0.8] max-[580px]:w-full max-[580px]:h-[40vh]"></swiper-slide>
+    <swiper-slide><img src='/hero-img4.webp' alt="" class="opacity-[0.8] max-[580px]:w-full max-[580px]:h-[40vh]"></swiper-slide>
   </swiper>
   </div>
   <div class="relative z-[1000] bg-white flex flex-col items-center ">
@@ -53,10 +56,10 @@
         <line x1="0" y1="0" x2="100%" y2="0" style="stroke:rgb(0, 0, 0);stroke-width:2" />
       </svg>
     </div>
-    <div class="w-[90%] flex gap-[2em] max-[680px]:flex-col">
-      <img src="/aboutus-photo.webp" alt=""  class="w-[50%] h-[1000px] object-cover max-[680px]:w-[100%] max-[680px]:h-[600px] max-[400px]:h-[400px]">
-      <div class="mx-8 max-[680px]:hidden">
-        <div class="w-[90%] h-[1000px] flex">
+    <div class="w-[90%] flex gap-[2em] max-[1532px]:flex-col">
+      <img src="/aboutus-photo.webp" alt=""  class="h-[450px] object-cover max-[680px]:w-[100%] max-[1532px]:h-[600px] max-[400px]:h-[400px]">
+      <div class="mx-8 max-[1532px]:hidden">
+        <div class="w-[90%] h-[450px] flex">
       <svg height="100%" width="4" class="">
         <line y1="100%" style="stroke:rgb(0, 0, 0);stroke-width:2" />
       </svg>
@@ -65,7 +68,7 @@
       </svg>
     </div>
       </div>
-      <div class="w-full ">
+      <div class="w-full">
         <p class="pb-[10px] tracking-[0.2em]">ARMIN MEŠIĆ | FORA STUDIO</p>
         <p class="border-b w-full border-black pb-[30px] text-[12px] font-bold tracking-[0.2em]">about us</p>
         <div class="w-full border-b border-black pb-[50px]">
@@ -77,20 +80,11 @@
             <li>▸ Less is more</li>
           </ul>
         </div>
-        <div class="w-full pt-[50px] flex flex-col gap-[2em] underline">
-          Što klijenti kažu?
-          <swiper :loop="true" :modules="modules" :autoplay="{
-      delay: 1500,
-      disableOnInteraction: false,
-    }"
-     :effect="'fade'" class="!w-[500px] !h-[250px] !ml-0 mt-16  max-[1300px]:!w-[300px] max-[1300px]:!h-[150px] max-[950px]:!w-[200px] max-[950px]:!h-[100px] max-[680px]:!w-[250px] max-[680px]:mt-4 max-[680px]:!h-[120px]">
-     <swiper-slide></swiper-slide>
-     <swiper-slide></swiper-slide>
-     <swiper-slide></swiper-slide>
-     <swiper-slide></swiper-slide>
-     <swiper-slide></swiper-slide>
-  </swiper>
-        </div>
+        <router-link to="/O nama" class="mt-3 border border-black cursor-pointer w-[150px] h-[50px] flex justify-center items-center">
+          <p>VIŠE O NAMA</p>
+        </router-link>
+        
+
       </div>
     </div>
     <div class="w-full mt-16 bg-black relative ">
