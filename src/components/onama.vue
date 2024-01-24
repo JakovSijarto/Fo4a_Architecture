@@ -1,5 +1,5 @@
 <template>
-    <h1 class="pt-72 pl-24 pb-16 font-bold text-[1.5rem] import_font text-size max-[520px]:pt-32 max-[520px]:pl-4">O NAMA</h1>
+    <h1 class="pt-72 pl-24 pb-16 font-bold text-[1.5rem] import_font text-size max-[580px]:pt-[150px] max-[520px]:pl-4">O NAMA</h1>
     <div class="w-full flex justify-center items-center flex-col">
         <img src="/aboutus-photo.webp" alt="" class="min-[1610px]:hidden w-full">
         <div class="flex justify-between w-[70%] py-52 max-[1610px]:flex-col max-[1610px]:pt-8">

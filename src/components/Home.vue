@@ -80,7 +80,7 @@
             <li>▸ Less is more</li>
           </ul>
         </div>
-        <router-link to="/O nama" class="mt-3 border border-black cursor-pointer w-[150px] h-[50px] flex justify-center items-center">
+        <router-link to="/onama" class="mt-3 border border-black cursor-pointer w-[150px] h-[50px] flex justify-center items-center">
           <p>VIŠE O NAMA</p>
         </router-link>
         

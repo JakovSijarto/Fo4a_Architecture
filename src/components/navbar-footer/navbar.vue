@@ -13,7 +13,7 @@
         <div class="overlay flex flex-col uppercase font-bold min-[1020px]:hidden text-[14px] " :class="{ active: isActive }">
         <router-link to="/" @click="showMobile()" class="hover-effect animation-text">Home</router-link>
         <router-link to="/projekti" @click="showMobile()" class="hover-effect animation-text">Projects</router-link>
-        <router-link to="/O nama" @click="showMobile()" class="hover-effect animation-text">O nama</router-link>
+        <router-link to="/onama" @click="showMobile()" class="hover-effect animation-text">O nama</router-link>
         <router-link to="/kontakt" @click="showMobile()" class="hover-effect animation-text">Kontakt</router-link>
         </div>
       <div class="hamb_menu min-[1020px]:hidden">
@@ -170,7 +170,8 @@ export default {
 }
 @media only screen and (max-width: 580px) {
   .scaleimg{
-    width: 80px; padding-top: 2em;
+    width: 60px; padding-top: 2em;
+    height: 90px;
   }
 }
 </style>
