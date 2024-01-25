@@ -28,7 +28,7 @@
     <div class="w-[90%] flex gap-[5em] pt-[50px] justify-between items-start max-[740px]:flex-col">
       <div class="w-full bg-white cursor-pointer">
         <router-link to="/project/2">
-        <img src="/projects1.webp"  alt="" class="h-[600px] w-[100%] object-cover hover-effect max-[1000px]:h-[500px] max-[450px]:h-[300px]">
+        <img src="/projects1.webp"  alt="" class="h-[600px] w-[100%] object-cover hover-effect3 max-[1000px]:h-[500px] max-[450px]:h-[300px]">
         <div class="">
           <p class="py-6 text-[22px]">Projekt 1</p>
           <p class="text-[14px]">pogledaj više ⟶</p>
@@ -37,7 +37,7 @@
       </div>
       <div class="w-full bg-white cursor-pointer">
         <router-link to="/project/2">
-        <img src="/projects2.webp" alt=""  class="h-[600px] w-[100%] object-cover hover-effect max-[1000px]:h-[500px] max-[450px]:h-[300px]">
+        <img src="/projects2.webp" alt=""  class="h-[600px] w-[100%] object-cover hover-effect3 max-[1000px]:h-[500px] max-[450px]:h-[300px]">
         <div class="">
           <p class="py-6 text-[22px]">Projekt 2</p>
           <p class="text-[14px]">pogledaj više ⟶</p>
@@ -71,7 +71,7 @@
             <li>▸ Lorem, ipsum dolor.</li>
           </ul>
         </div>
-        <router-link to="/onama" class="mt-10 border border-black cursor-pointer w-[150px] h-[50px] flex justify-center items-center hover-effect">
+        <router-link to="/onama" class="mt-10 border border-black cursor-pointer w-[150px] h-[50px] flex justify-center items-center hover-effect2">
           VIŠE O NAMA
         </router-link>
         
@@ -137,12 +137,22 @@ sendEmail() {
   };
 </script>
 
-<style>
-.hover-effect:hover{
+<style >
+.hover-effect3:hover{
+  opacity: 0.5;
+  transition: all 0.3s ease-in; 
+}
+.hover-effect3{
+  transition: all 0.5s ease-in; 
+}
+.hover-effect2:hover{
   background: #000;
   color:#fff;
+  transition: all 0.6s ease-in; 
 }
-
+.hover-effect2{
+  transition: all 0.6s ease-out; 
+}
 .hover-effect-button:hover{
   background: white;
   color:black;

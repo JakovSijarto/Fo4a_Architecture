@@ -12,7 +12,7 @@
         <div class="">
             <p class="max-[1610px]:pt-16 max-[770px]:!text-[32px] text-[2.8rem]">FO4A ARCHITECTURE</p>
             <p class="w-[440px] py-8 max-[606px]:w-full max-[770px]:!text-[14px]">Through a unique combination of engineering, construction and design disciplines and expertise, Concor delivers world class infrastructure solutions to customers and stakeholders across a broad range of industry sectors.</p>
-            <router-link to="/kontakt" class="mt-3 border border-black cursor-pointer w-[150px] h-[50px] flex justify-center items-center hover-effect">
+            <router-link to="/kontakt" class="mt-3 border border-black cursor-pointer w-[150px] h-[50px] flex justify-center items-center hover-effect2">
           <p class="text-[14px] ">KONTAKTIRAJTE NAS</p>
         </router-link>
         </div>
@@ -107,7 +107,7 @@
       <div class="absolute inset-0 flex items-center justify-center flex-col text-white">
         <p style="font-size: calc(0.2vw + 1vh + 0.5vmin);" class="max-[1000px]:!text-[14px]">VI SANJATE, MI DIZAJNIRAMO</p>
         <p class="max-[770px]:!text-[32px] text-[2.8rem] pb-8 mx-4 text-center pt-2">POSTAVITE NAM PITANJE</p>
-        <router-link to="/kontakt" class="mt-3 border relative z-[999] cursor-pointer w-[150px] h-[50px] flex justify-center items-center hover-effect">
+        <router-link to="/kontakt" class="mt-3 border relative z-[999] cursor-pointer w-[150px] h-[50px] flex justify-center items-center hover-effect2">
           <p class="text-[14px] ">KONTAKTIRAJTE NAS</p>
         </router-link>
       </div>

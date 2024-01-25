@@ -59,6 +59,9 @@ export default {
 .router-link-active{
   border-bottom: 3px solid black; 
 }
+.hover-effect2{
+  color:grey;
+}
 .overlay {
   position: fixed;
   top: 0;
