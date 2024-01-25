@@ -1,5 +1,5 @@
 <template>
-    <h1 class="pt-72 pl-24 pb-16 font-bold text-[18px] import_font text-size max-[520px]:pt-32 max-[520px]:pl-4">PROJECTS:</h1>
+    <h1 class="pt-72 pl-24 pb-16 font-bold text-[18px] import_font text-size max-[520px]:pt-32 max-[520px]:pl-4">PROJEKTI:</h1>
     <div class="w-full flex justify-center items-center">
       <ul class="flex flex-wrap w-[90%] items-start justify-center text-[22px] max-[360px]:w-auto">
     <li v-for="project in projects" :key="project.id" class="mx-[15px] mb-[30px] max-[360px]:mx-2 hovered_card max-[360px]:w-[40%]">

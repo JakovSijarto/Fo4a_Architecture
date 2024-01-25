@@ -21,6 +21,11 @@ const routes = [
     name: 'Kontakt',
     component: ()=> import('../components/kontakt.vue'),
   },
+  {
+    path: '/nagrade',
+    name: 'nagrade',
+    component: ()=> import('../components/nagrade.vue'),
+  },
   { path: '/project/:id',
   component: ()=> import('../components/projekti_detalji.vue'), 
    name: 'project-details',

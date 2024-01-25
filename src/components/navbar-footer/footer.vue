@@ -6,33 +6,35 @@
       </svg>
     </div>
     <div class="w-[90%] flex justify-between items-center pb-12 max-[980px]:flex-col max-[980px]:gap-[5em]">
-      <div class="ml-24 max-[980px]:ml-0">
+      <div class="max-[980px]:ml-0">
         <div class="image-container">
           <img src="/logo.png" loading="lazy" alt="" width="150" height="120" class="scaleimg">
         </div>
       </div>
       <ul class="text-center text-[15px] max-[980px]:hidden">
-  <li class="pb-12 font-bold text-[18.5px]">PAGES</li>
-  <li><router-link to="/" class="">home</router-link></li>
+  <li class="pb-12 font-bold text-[18.5px]">STRANICE</li>
+  <li><router-link to="/" class="">početna</router-link></li>
   <li class="py-4"><router-link to="/projekti">projekti</router-link></li>
   <li><router-link to="/onama">o nama</router-link></li>
-  <li class="py-4"><router-link to="/kontakt">kontakt</router-link></li>
+  <li class="py-4"><router-link to="/nagrade">nagrade</router-link></li>
+  <li ><router-link to="/kontakt">kontakt</router-link></li>
 </ul>
 <ul class="max-[980px]:hidden">
-  <li><a href="tel:+38761402330">PHONE: +38761402330</a></li>
+  <li><a href="tel:+38761402330">TELEFON: +38761402330</a></li>
   <li><a href="mailto:arminmesic@gmail.com">EMAIL: fo4a@gmail.com</a></li>
   <li><a href="https://www.instagram.com/fo4aarchitecture/">INSTAGRAM ▸ ▹</a></li>
 </ul>
 <div class="min-[981px]:hidden flex w-full justify-between items-center px-12 max-[400px]:flex-col max-[400px]:gap-[5em]">
 <ul class="text-left text-[15px] max-[400px]:text-center">
-  <li class="pb-12 font-bold text-[18.5px]">PAGES</li>
-  <li><router-link to="/" class="">home</router-link></li>
+  <li class="pb-12 font-bold text-[18.5px]">STRANICE</li>
+  <li><router-link to="/" class="">početna</router-link></li>
   <li class="py-4"><router-link to="/projekti">projekti</router-link></li>
   <li><router-link to="/onama">o nama</router-link></li>
-  <li class="py-4"><router-link to="/kontakt">kontakt</router-link></li>
+  <li class="py-4"><router-link to="/nagrade">nagrade</router-link></li>
+  <li ><router-link to="/kontakt">kontakt</router-link></li>
 </ul>
 <ul class="">
-  <li><a href="tel:+38761402330">Phone: +38761402330</a></li>
+  <li><a href="tel:+38761402330">TELEFON: +38761402330</a></li>
   <li><a href="mailto:arminmesic@gmail.com">Email: fo4a@gmail.com</a></li>
   <li><a href="https://www.instagram.com/fo4aarchitecture/">INSTAGRAM ▸ ▹</a></li>
 </ul>

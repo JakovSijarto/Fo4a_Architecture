@@ -5,15 +5,17 @@
           <img src="/logo.png" loading="lazy" alt="" width="150" height="120" class="scaleimg">
         </div>
       <ul class="flex gap-[2em] max-[1019px]:hidden tracking-[0.1em] uppercase font-bold">
-        <li><router-link to="/" class="hover-effect !text-black pb-2">Home</router-link></li>
-        <li><router-link to="/projekti" class="hover-effect !text-black pb-2">Projects</router-link></li>
+        <li><router-link to="/" class="hover-effect !text-black pb-2">Početna</router-link></li>
+        <li><router-link to="/projekti" class="hover-effect !text-black pb-2">Projekti</router-link></li>
         <li><router-link to="/onama" class="hover-effect !text-black pb-2">O nama</router-link></li>
+        <li><router-link to="/nagrade" class="hover-effect !text-black pb-2">Nagrade</router-link></li>
         <li><router-link to="/kontakt" class="hover-effect !text-black pb-2">Kontakt</router-link></li>
       </ul>
         <div class="overlay flex flex-col uppercase font-bold min-[1020px]:hidden text-[14px] " :class="{ active: isActive }">
-        <router-link to="/" @click="showMobile()" class="hover-effect animation-text">Home</router-link>
-        <router-link to="/projekti" @click="showMobile()" class="hover-effect animation-text">Projects</router-link>
+        <router-link to="/" @click="showMobile()" class="hover-effect animation-text">Početna</router-link>
+        <router-link to="/projekti" @click="showMobile()" class="hover-effect animation-text">Projekti</router-link>
         <router-link to="/onama" @click="showMobile()" class="hover-effect animation-text">O nama</router-link>
+        <router-link to="/nagrade" @click="showMobile()" class="hover-effect animation-text">Nagrade</router-link>
         <router-link to="/kontakt" @click="showMobile()" class="hover-effect animation-text">Kontakt</router-link>
         </div>
       <div class="hamb_menu min-[1020px]:hidden">
