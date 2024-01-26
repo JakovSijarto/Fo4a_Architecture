@@ -6,6 +6,7 @@ import VueI18nPlugin from '@intlify/unplugin-vue-i18n/vite'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base:"/Fo4a_Architecture/",
   plugins: [
     vue(),
     VueI18nPlugin({
