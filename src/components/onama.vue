@@ -96,7 +96,7 @@
           <img src="/linkedin-black.svg" alt="" class="!w-[70%] !h-[70%]">
         </p>
       </div>
-      <p class="text-center pt-4 text-[22px] font-bold">John Portman</p>
+      <p class="text-center pt-4 text-[22px] font-bold">John Dortman</p>
     </div>
   </div>
   
