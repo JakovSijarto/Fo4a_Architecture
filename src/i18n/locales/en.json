@@ -1,0 +1,92 @@
+{
+    "locale":{
+        "en":"ENGLISH",
+        "hr":"HR/BH"
+    },
+    "nav": {
+        "home": "Home",
+        "about": "About us",
+        "projekti": "Projects",
+        "nagrade": "Awards",
+        "kontakt": "Contact"
+    },
+    "home":{
+        "projekti": "PROJECTS",
+        "projekti_link":"see other projects",
+        "projekt_1":"project 1",
+        "projekt_2":"project 2",
+        "pogledaj_vise":"see more",
+        "onama":"about us",
+        "onama_opis1":"Lorem ipsum dolor sit amet consectetur.",
+        "onama_opis2":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, vel facere adipisci nulla natus repellat atque nobis molestiae totam!",
+        "onama_opis3":"Lorem ipsum dolor sit amet.",
+        "onama_opis4":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam atque doloremque ab!",
+        "onama_opis5":"Lorem, ipsum dolor.",
+        "onama_button":"MORE",
+        "kontakt":"SEND YOUR QUESTION",
+        "kontakt_button":"Send"
+    },
+    "projekti":{
+        "projekti":"PROJECTS",
+        "projekti_detalji":"Project details",
+        "desc_gumb":"GO BACK"
+    },
+    "onama":{
+        "desc":"Through a unique combination of engineering, construction and design disciplines and expertise, Concor delivers world class infrastructure solutions to customers and stakeholders across a broad range of industry sectors.",
+        "desc_button":"CONTACT US",
+        "about_title1":"Reasonable Prices",
+        "about_title2":"Exclusive Design",
+        "about_title3":"Professional Team",
+        "about_desc1":"We produce furniture to fulfill needs of all people and offer it at affordable and fair prices",
+        "about_desc2":"Mixture of imagination, experience and professionalism is the secret of our design!",
+        "about_desc3":"We are proud of our amicable, professional and always developing team!",
+        "onama":"about us",
+        "tim":"THIS IS OUR TEAM",
+        "kontakt_sec":"YOU DREAM, WE DESIGN",
+        "kontakt_title":"ASK US QUESTIONS"
+    },
+    "nagrade":{
+        "nagrade":"AWARDS",
+        "mali_naslov":"WHAT WE HAVE ACHIEVED",
+        "veliki_naslov":"WE ARE PROUD OF OUR AWARDS",
+
+        "award1":"Architecture Award",
+        "award1_naslov":"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "award1_god":"2014",
+        "award1_desc":"DESCRIPTION",
+
+        "award2":"Architecture Award",
+        "award2_naslov":"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "award2_god":"2014",
+        "award2_desc":"DESCRIPTION",
+
+        "award3":"Architecture Award",
+        "award3_naslov":"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "award3_god":"2014",
+        "award3_desc":"DESCRIPTION",
+
+        "award4":"Architecture Award",
+        "award4_naslov":"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "award4_god":"2014",
+        "award4_desc":"DESCRIPTION",
+
+        "award5":"Architecture Award",
+        "award5_naslov":"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "award5_god":"2014",
+        "award5_desc":"DESCRIPTION"
+    },
+    "kontakt":{
+        "kontakt":"CONTACT US",
+        "kontakt_button":"Send",
+        "telefon":"TEL.NUMBER"
+    },
+    "footer":{
+        "pages":"PAGES",
+        "pages_1":"home",
+        "pages_2":"projects",
+        "pages_3":"about us",
+        "pages_4":"awards",
+        "pages_5":"contact",
+        "info":"TELEPHONE"
+    }
+}

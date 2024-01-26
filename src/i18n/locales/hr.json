@@ -1,0 +1,92 @@
+{
+    "locale":{
+        "en":"Engleski",
+        "hr":"HR/BH"
+    },
+    "nav": {
+        "home": "Početna",
+        "about": "O nama",
+        "projekti": "Projekti",
+        "nagrade": "Nagrade",
+        "kontakt": "Kontakt"
+    },
+    "home":{
+        "projekti": "PROJEKTI",
+        "projekti_link":"pogledajte ostale projekte",
+        "projekt_1":"projekt 1",
+        "projekt_2":"projekt 2",
+        "pogledaj_vise":"pogledaj više",
+        "onama":"o nama",
+        "onama_opis1":"Lorem ipsum dolor sit amet consectetur.",
+        "onama_opis2":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, vel facere adipisci nulla natus repellat atque nobis molestiae totam!",
+        "onama_opis3":"Lorem ipsum dolor sit amet.",
+        "onama_opis4":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam atque doloremque ab!",
+        "onama_opis5":"Lorem, ipsum dolor.",
+        "onama_button":"VIŠE O NAMA",
+        "kontakt":"POŠALJITE SVOJ UPIT",
+        "kontakt_button":"Pošalji"
+    },
+    "projekti":{
+        "projekti":"PROJEKTI",
+        "projekti_detalji":"Detalji projekta",
+        "desc_gumb":"NATRAG"
+    },
+    "onama":{
+        "desc":"Kroz jedinstvenu kombinaciju inženjerskih, građevinskih i dizajnerskih disciplina i stručnosti, Concor isporučuje infrastrukturna rješenja svjetske klase kupcima i dionicima u širokom rasponu industrijskih sektora.",
+        "desc_button":"KONTAKTIRAJTE NAS",
+        "about_title1":"Prihvatljive cijene",
+        "about_title2":"Ekskluzivni dizajn",
+        "about_title3":"Profesionalni tim",
+        "about_desc1":"Proizvodimo dizajn za potrebe svih ljudi i nudimo ga po pristupačnim i poštenim cijenama",
+        "about_desc2":"Mješavina mašte, iskustva i profesionalnosti tajna je našeg dizajna!",
+        "about_desc3":"Ponosni smo na naš prijateljski, profesionalan i uvijek u razvoju tim!",
+        "onama":"o nama",
+        "tim":"OVO JE NAŠ TIM",
+        "kontakt_sec":"VI SANJATE, MI DIZAJNIRAMO",
+        "kontakt_title":"POSTAVITE NAM PITANJE"
+    },
+    "nagrade":{
+        "nagrade":"NAGRADE",
+        "mali_naslov":"ŠTO SMO POSTIGLI",
+        "veliki_naslov":"PONOSNI SMO NA NAŠE NAGRADE",
+
+        "award1":"Nagrada za arhitekturu",
+        "award1_naslov":"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "award1_god":"2014",
+        "award1_desc":"OPIS",
+
+        "award2":"Nagrada za arhitekturu",
+        "award2_naslov":"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "award2_god":"2014",
+        "award2_desc":"OPIS",
+
+        "award3":"Nagrada za arhitekturu",
+        "award3_naslov":"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "award3_god":"2014",
+        "award3_desc":"OPIS",
+
+        "award4":"Nagrada za arhitekturu",
+        "award4_naslov":"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "award4_god":"2014",
+        "award4_desc":"OPIS",
+
+        "award5":"Nagrada za arhitekturu",
+        "award5_naslov":"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "award5_god":"2014",
+        "award5_desc":"OPIS"
+    },
+    "kontakt":{
+        "kontakt":"KONTAKTIRAJTE NAS",
+        "kontakt_button":"Pošalji",
+        "telefon":"TEL.BROJ"
+    },
+    "footer":{
+        "pages":"STRANICE",
+        "pages_1":"početna",
+        "pages_2":"projekti",
+        "pages_3":"o nama",
+        "pages_4":"nagrade",
+        "pages_5":"kontakt",
+        "info":"TELEFON"
+    }
+}

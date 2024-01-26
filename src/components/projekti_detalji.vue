@@ -1,6 +1,6 @@
 <template>
   <div class="pt-72 w-full max-[580px]:pt-40">
-    <h2 class="pl-24 pb-16 max-[340px]:pl-0 max-[340px]:text-center font-bold text-[18px]">Project Details</h2>
+    <h2 class="pl-24 pb-16 max-[340px]:pl-0 max-[340px]:text-center font-bold text-[18px]">{{ $t("projekti.projekti_detalji") }}</h2>
     <div class="w-full flex justify-center">
       <div class="w-[90%] flex justify-between items-center gap-[3em] max-[1090px]:flex-col">
         <img
@@ -12,7 +12,7 @@
         <div class="w-full flex justify-start flex-col">
           <p class="font-bold text-[18px]">{{ project.name }}</p>
           <p class="py-16 max-[400px]:py-8 font-light style-font_poiret">{{ project.description }}</p>
-          <router-link to="/projekti" class="border w-[160px] h-[50px] flex justify-center items-center text-[18px] font-bold">Go back</router-link>
+          <router-link to="/projekti" class="border w-[160px] h-[50px] flex justify-center items-center text-[18px] font-bold">{{ $t("projekti.desc_gumb") }}</router-link>
         </div>
       </div>
     </div>

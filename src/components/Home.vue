@@ -22,16 +22,16 @@
       </svg>
     </div>
     <div class="w-[90%] flex items-center justify-between  max-[500px]:flex-col max-[500px]:gap-[3em]">
-      <p class="text-[19px] tracking-[0.2em] uppercase font-bold">Projekti</p>
-      <p class="tracking-[0.15em]"><router-link to="/projekti">pogledajte ostale projekte ▸ ▹</router-link></p>
+      <p class="text-[19px] tracking-[0.2em] uppercase font-bold">{{ $t("home.projekti") }}</p>
+      <p class="tracking-[0.15em]"><router-link to="/projekti">{{ $t("home.projekti_link") }} ▸ ▹</router-link></p>
     </div>
     <div class="w-[90%] flex gap-[5em] pt-[50px] justify-between items-start max-[740px]:flex-col">
       <div class="w-full bg-white cursor-pointer">
         <router-link to="/project/2">
         <img src="/projects1.webp"  alt="" class="h-[600px] w-[100%] object-cover hover-effect3 max-[1000px]:h-[500px] max-[450px]:h-[300px]">
         <div class="">
-          <p class="py-6 text-[22px]">Projekt 1</p>
-          <p class="text-[14px]">pogledaj više ⟶</p>
+          <p class="py-6 text-[22px]">{{ $t("home.projekt_1") }}</p>
+          <p class="text-[14px]">{{ $t("home.pogledaj_vise") }} ⟶</p>
         </div>
       </router-link>
       </div>
@@ -39,8 +39,8 @@
         <router-link to="/project/2">
         <img src="/projects2.webp" alt=""  class="h-[600px] w-[100%] object-cover hover-effect3 max-[1000px]:h-[500px] max-[450px]:h-[300px]">
         <div class="">
-          <p class="py-6 text-[22px]">Projekt 2</p>
-          <p class="text-[14px]">pogledaj više ⟶</p>
+          <p class="py-6 text-[22px]">{{ $t("home.projekt_2") }}</p>
+          <p class="text-[14px]">{{ $t("home.pogledaj_vise") }} ⟶</p>
         </div>
       </router-link>
       </div>
@@ -61,18 +61,18 @@
       </div>
       <div class="w-full">
         <p class="pb-[10px] tracking-[0.2em]">ARMIN MEŠIĆ | FO4A STUDIO</p>
-        <p class="border-b w-full border-black pb-[30px] text-[12px] font-bold tracking-[0.2em]">o nama</p>
+        <p class="border-b w-full border-black pb-[30px] text-[12px] font-bold tracking-[0.2em]">{{ $t("home.onama") }}</p>
         <div class="w-full border-b border-black pb-[30px]">
           <ul class="pt-[30px]">
-            <li>▸ Lorem ipsum dolor sit amet consectetur.</li>
-            <li class="py-4">▸ Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, vel facere adipisci nulla natus repellat atque nobis molestiae totam!</li>
-            <li>▸ Lorem ipsum dolor sit amet.</li>
-            <li class="py-4">▸ Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam atque doloremque ab!</li>
-            <li>▸ Lorem, ipsum dolor.</li>
+            <li>▸ {{ $t("home.onama_opis1") }}</li>
+            <li class="py-4">▸ {{ $t("home.onama_opis2") }}</li>
+            <li>▸ {{ $t("home.onama_opis3") }}</li>
+            <li class="py-4">▸ {{ $t("home.onama_opis4") }}</li>
+            <li>▸ {{ $t("home.onama_opis5") }}</li>
           </ul>
         </div>
         <router-link to="/onama" class="mt-10 border border-black cursor-pointer w-[150px] h-[50px] flex justify-center items-center hover-effect2">
-          VIŠE O NAMA
+          {{ $t("home.onama_button") }}
         </router-link>
         
 
@@ -81,12 +81,12 @@
     <div class="w-full mt-16 bg-black relative ">
       <img src="/contact-home.webp" alt="" class="h-[770px] w-full object-cover opacity-[0.3]" >
       <form class="absolute inset-0 flex items-center justify-center flex-col text-white" ref="form" @submit="sendEmail">
-        <p class="text-[30px] pb-2 mx-4 text-center">POŠALJITE SVOJ UPIT</p>
-        <input type="text" required v-model="ime" name="ime" class="border-b text-[17px] leading-[0.2em] py-[15px] bg-[transparent] w-[800px] max-[900px]:w-[90%] pr-4 " placeholder="Ime*">
+        <p class="text-[30px] pb-2 mx-4 text-center">{{ $t("home.kontakt") }}</p>
+        <input type="text" required v-model="ime" name="ime" class="border-b text-[17px] leading-[0.2em] py-[15px] bg-[transparent] w-[800px] max-[900px]:w-[90%] pr-4 " placeholder="Name*">
         <input type="email" required v-model="email" name="email" class="bg-[transparent] border-b text-[17px] leading-[0.2em] py-[15px] w-[800px] max-[900px]:w-[90%] pr-4" placeholder="Mail*">
-        <input type="phone" required v-model="telefon" name="telefon" class="bg-[transparent] border-b text-[17px] leading-[0.2em] py-[15px] w-[800px] max-[900px]:w-[90%] pr-4" placeholder="Telefon*">
-        <textarea v-model="poruka" name="poruka" placeholder="Vaše pitanje" class="bg-[transparent] border-b text-[17px] leading-[0.2em] py-[15px] pt-[30px] w-[800px]  pr-4 max-h-[150px] min-h-[150px] max-[900px]:w-[90%]"></textarea>
-        <button type="submit" class="rounded-[27px] border leading-[1px] py-6 px-16 mt-12 hover-effect-button">Pošalji</button>
+        <input type="phone" required v-model="telefon" name="telefon" class="bg-[transparent] border-b text-[17px] leading-[0.2em] py-[15px] w-[800px] max-[900px]:w-[90%] pr-4" placeholder="Telephone*">
+        <textarea v-model="poruka" name="poruka" placeholder="Your Question" class="bg-[transparent] border-b text-[17px] leading-[0.2em] py-[15px] pt-[30px] w-[800px]  pr-4 max-h-[150px] min-h-[150px] max-[900px]:w-[90%]"></textarea>
+        <button type="submit" class="rounded-[27px] border leading-[1px] py-6 px-16 mt-12 hover-effect-button">{{ $t("home.kontakt_button") }}</button>
       </form>
     </div>
   </div>
@@ -135,6 +135,7 @@ sendEmail() {
 },
 },
   };
+
 </script>
 
 <style >
