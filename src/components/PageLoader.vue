@@ -18,7 +18,7 @@
   onMounted(() => {
     setTimeout(() => {
       showLoader.value = false;
-    }, 2500);
+    }, 4000);
   });
   </script>
   
