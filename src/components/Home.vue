@@ -17,8 +17,8 @@
   </div>
   <div class="relative z-[1000] bg-white flex flex-col items-center ">
     <div class="w-[90%] py-12">
-      <svg height="30" width="100%" class="">
-        <line x2="100%" style="stroke:rgb(0, 0, 0);stroke-width:25" />
+      <svg height="3" width="100%" class="">
+        <line x1="0" y1="0" x2="100%" y2="0" style="stroke:rgb(0, 0, 0);stroke-width:2" />
       </svg>
     </div>
     <div class="w-[90%] flex items-center justify-between  max-[500px]:flex-col max-[500px]:gap-[3em]">

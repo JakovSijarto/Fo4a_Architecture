@@ -40,67 +40,73 @@
                 </div>
             </li>
         </ul>
-
-        <div class="flex justify-center items-center flex-col">
-            <p style="font-size: calc(0.4vw + 1vh + 1vmin);" class="max-[1000px]:!text-[20px]">{{ $t("onama.onama") }}</p>
-            <p style="font-size: calc(1.6vw + 1vh + 1vmin);" class="text-center pb-8 pt-2 font-bold max-[1000px]:!text-[35px]">{{ $t("onama.tim") }}</p>
-            <div class="card-section max-[940px]:gap-[3em]">
-    <!-- Card 1 -->
-    <div class="card">
-      <img src="/about-man3.webp" alt="Card 1 Image" />
-      <!-- Icons -->
-      <div class="icon-container">
-        <p>
-          <img src="/instagram-black.svg" alt="" class="!w-[60%] !h-[60%]">
-        </p>
-        <p>
-          <img src="/facebook-black.svg" alt="" class="!w-[80%] !h-[80%]">
-        </p>
-        <p>
-          <img src="/linkedin-black.svg" alt="" class="!w-[70%] !h-[70%]">
-        </p>
-      </div>
-      <p class="text-center pt-4 text-[22px] font-bold">John Portman</p>
+        <p style="font-size: calc(0.4vw + 1vh + 1vmin);" class="max-[1000px]:!text-[20px]">{{ $t("onama.onama") }}</p>
+        <p style="font-size: calc(1.6vw + 1vh + 1vmin);" class="text-center pb-8 pt-2 font-bold max-[1000px]:!text-[35px]">{{ $t("onama.tim") }}</p>
+        <div class="flex flex-wrap justify-center">
+  <!-- Card 1 -->
+  <div class="max-w-xs rounded overflow-hidden shadow-lg m-4">
+    <img class="w-full h-auto transition duration-500 transform hover:scale-110 relative" src="/about-man1.webp" alt="Person 1">
+    <div class="flex justify-center items-center max-[380px]:block">
+      <div class="px-6 py-4 pt-6">
+      <div class="font-bold text-xl mb-2">Emily Johnson</div>
+      <p class="text-gray-700 text-base">
+        Sales Representative
+      </p>
     </div>
-    
-    <!-- Card 2 -->
-    <div class="card ">
-      <img src="/about-man1.webp" alt="Card 2 Image" />
-      <!-- Icons -->
-      <div class="icon-container">
-        <p>
-          <img src="/instagram-black.svg" alt="" class="!w-[60%] !h-[60%]">
-        </p>
-        <p>
-          <img src="/facebook-black.svg" alt="" class="!w-[80%] !h-[80%]">
-        </p>
-        <p>
-          <img src="/linkedin-black.svg" alt="" class="!w-[70%] !h-[70%]">
-        </p>
-      </div>
-      <p class="text-center pt-4 text-[22px] font-bold">John Portman</p>
+    <div class="px-6 py-4 flex">
+      <a href="#" class="mr-4">
+        <img src="/instagram-black.svg" alt="" class="w-[32px]">
+      </a>
+      <a href="#" class="mr-4">
+        <img src="/linkedin-black.svg" alt="" class="w-[32px]">
+      </a>
     </div>
-
-    <!-- Card 3 -->
-    <div class="card">
-      <img src="/about-man2.webp" alt="Card 3 Image" />
-      <!-- Icons -->
-      <div class="icon-container">
-        <p>
-          <img src="/instagram-black.svg" alt="" class="!w-[60%] !h-[60%]">
-        </p>
-        <p>
-          <img src="/facebook-black.svg" alt="" class="!w-[80%] !h-[80%]">
-        </p>
-        <p>
-          <img src="/linkedin-black.svg" alt="" class="!w-[70%] !h-[70%]">
-        </p>
-      </div>
-      <p class="text-center pt-4 text-[22px] font-bold">John Dortman</p>
     </div>
   </div>
-  
-        </div>
+
+  <!-- Card 2 -->
+  <div class="max-w-xs rounded overflow-hidden shadow-lg m-4">
+    <img class="w-full h-auto transition duration-500 transform hover:scale-110" src="/about-man2.webp" alt="Person 2">
+    <div class="flex justify-center items-center max-[380px]:block">
+      <div class="px-6 py-4 pt-6">
+      <div class="font-bold text-xl mb-2">Emily Johnson</div>
+      <p class="text-gray-700 text-base">
+        Sales Representative
+      </p>
+    </div>
+    <div class="px-6 py-4 flex">
+      <a href="#" class="mr-4">
+        <img src="/instagram-black.svg" alt="" class="w-[32px]">
+      </a>
+      <a href="#" class="mr-4">
+        <img src="/linkedin-black.svg" alt="" class="w-[32px]">
+      </a>
+    </div>
+    </div>
+  </div>
+
+  <!-- Card 3 -->
+  <div class="max-w-xs rounded overflow-hidden shadow-lg m-4">
+    <img class="w-full h-auto transition duration-500 transform hover:scale-110" src="/about-man3.webp" alt="Person 3">
+    <div class="flex justify-center items-center max-[380px]:block">
+      <div class="px-6 py-4 pt-6">
+      <div class="font-bold text-xl mb-2">Emily Johnson</div>
+      <p class="text-gray-700 text-base">
+        Sales Representative
+      </p>
+    </div>
+    <div class="px-6 py-4 flex ">
+      <a href="#" class="mr-4">
+        <img src="/instagram-black.svg" alt="" class="w-[32px]">
+      </a>
+      <a href="#" class="mr-4">
+        <img src="/linkedin-black.svg" alt="" class="w-[32px]">
+      </a>
+    </div>
+    </div>
+    
+  </div>
+</div>
 
         <div class="w-full mt-16 bg-black relative ">
       <img src="/contact-home.webp" alt="" class="h-[350px] w-full object-cover opacity-[0.3]" >
@@ -114,63 +120,3 @@
     </div>
     </div>
 </template>
-
-<style scoped>
-/* Card Section Styling */
-.card-section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center; /* Allow cards to wrap to the next line on smaller screens */
-}
-
-/* Card Styling */
-.card {
-  position: relative;
-  margin: 10px;
-  overflow: hidden;
-  width: 450px;
-  height: 550px;
-  transition: background-color 0.3s ease-in-out; /* Add transition for background color */
-}
-/* Image Styling */
-.card img {
-  width: 100%;
-  height: 90%;
-  object-fit: cover;
-  border-radius: 6px;
-}
-
-/* Icon Container Styling */
-.icon-container {
-  position: absolute;
-  top: 80%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  display: flex;
-  gap: 2.5em;
-  color: #000;
-  font-size: 24px;
-  transition: opacity 0.3s ease-in-out;
-}
-.icon-container > p{
-    background: #fff;
-    width: 50px;
-    height: 50px;
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    border-radius: 50%;
-}
-@media only screen and (max-width: 480px) {
-    .card {
-  width: 90%;
-  height: 400px;
-
-}
-}
-@media only screen and (max-width: 340px) {
-    .icon-container {
-  gap: 0.9em;
-}
-}
-</style>
