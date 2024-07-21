@@ -1,5 +1,5 @@
 <template>
-  <div class="absolute z-[9999] w-full flex justify-center items-center pb-16 pt-24 max-[580px]:pt-8">
+  <div class="absolute hidden z-[9999] w-full flex justify-center items-center pb-16 pt-24 max-[580px]:pt-8">
     <div class="w-[90%] flex items-center justify-between ">
       <div class="mt-[-2em]">
           <img src="/logo.png" loading="lazy" alt="" width="150" height="120" class="scaleimg">

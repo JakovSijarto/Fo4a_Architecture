@@ -11,7 +11,7 @@
           <img src="/logo.png" loading="lazy" alt="" width="150" height="120" class="scaleimg">
         </div>
       </div>
-      <ul class="text-center text-[15px] max-[980px]:hidden">
+      <ul class="text-center text-[15px] max-[980px]:hidden hidden">
   <li class="pb-12 font-bold text-[18.5px]">{{ $t("footer.pages") }}</li>
   <li><router-link to="/" class="">{{ $t("footer.pages_1") }}</router-link></li>
   <li class="py-4"><router-link to="/projekti">{{ $t("footer.pages_2") }}</router-link></li>
@@ -25,7 +25,7 @@
   <li><a href="https://www.instagram.com/fo4aarchitecture/">INSTAGRAM ▸ ▹</a></li>
 </ul>
 <div class="min-[981px]:hidden flex w-full justify-between items-center px-12 max-[400px]:flex-col max-[400px]:gap-[5em]">
-<ul class="text-left text-[15px] max-[400px]:text-center">
+<ul class="text-left text-[15px] max-[400px]:text-center hidden">
   <li class="pb-12 font-bold text-[18.5px]">{{ $t("footer.pages") }}</li>
   <li><router-link to="/" class="">{{ $t("footer.pages_1") }}</router-link></li>
   <li class="py-4"><router-link to="/projekti">{{ $t("footer.pages_2") }}</router-link></li>
